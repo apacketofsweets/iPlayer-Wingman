@@ -1,0 +1,4 @@
+#Example showlist file - REMOVE THIS LINE!
+
+An Example Show
+Another example show
