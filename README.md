@@ -34,5 +34,6 @@ You can automate iPlayer-Wingman by setting up a cronjob to regularly search for
 
 The below is an example cronjob you could add into your crontab -  Command: crontab -e
 
-# This will run the scripts every night at midnight (providing script is in your home directory - hence the cd ~/ command)
 00 0    * * *   cd ~/ && ./iplayer-processor.sh && ./iplayer-pull.txt
+
+This will run the scripts every night at midnight (providing script is in your home directory - hence the cd ~/ command)
