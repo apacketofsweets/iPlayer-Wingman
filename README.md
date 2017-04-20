@@ -22,10 +22,15 @@ The pulling script reads the show numbers and downloads them from iPlayer one-by
 Instructions for use
 =====================
 Make sure you're in the directory where the script is located. 
+
 Create a text file named showlist.txt
+
 Add a list of programmes you'd like the script to search for on iPlayer, make sure each show is on its own line in the file
+
 Save the file then run the processor script - ./iplayer-processor.sh
+
 Once that's finished, run the pull script - ./iplayer-pull.sh (this will take a while!)
+
 When the download(s) is complete, the downloaded programme will be sitting in the directory where the script ran from. The video will be in a .flv format.
 
 Automating it
